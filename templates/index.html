@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Encurtador de URL</title>
+    <link rel="stylesheet" href="/public/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Encurtador de URLs</h1>
+        <form method="POST" action="/">
+            <input type="url" name="url" placeholder="Cole sua URL aqui..." required>
+            <button type="submit">Encurtar</button>
+        </form>
+        {{if .ShortURL}}
+        <p>URL encurtada: <a href="{{.ShortURL}}">{{.ShortURL}}</a></p>
+        {{end}}
+    </div>
+</body>
+</html>
