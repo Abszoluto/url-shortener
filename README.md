@@ -5,8 +5,9 @@ Um projeto simples e funcional de encurtador de URLs com interface web, desenvol
 O projeto foi desenvolvido com o objetivo de demonstrar a linguagem Go, em um trabalho para a disciplina de Linguagens de Programação.
 
 ![Go Version](https://img.shields.io/badge/Go-1.16%2B-blue)
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
-![Windows Support](https://img.shields.io/badge/platform-Windows%20only-blueviolet)
+![Status](https://img.shields.io/badge/status-finalizado-green)
+![Windows Support](https://img.shields.io/badge/platform-Windows%20-blueviolet)
+![Linux Support](https://img.shields.io/badge/platform-Linux%20-yellow)
 
 
 ### Como funciona um encurtador de URLs ?
