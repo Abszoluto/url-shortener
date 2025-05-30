@@ -8,6 +8,34 @@ O projeto foi desenvolvido com o objetivo de demonstrar a linguagem Go, em um tr
 ![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 ![Windows Support](https://img.shields.io/badge/platform-Windows%20only-blueviolet)
 
+
+### Como funciona um encurtador de URLs ?
+Um encurtador de URLs gera um código curto único, armazena esse código junto com a URL original e ao receber acessos pelo código curto, redireciona o usuário para a URL completa.
+
+### Passo a passo do funcionamento do projeto
+
+1. **Usuário insere uma URL longa**  
+   O usuário cola a URL que deseja encurtar na interface do serviço e aperta o botão "Encurtar URL".
+
+2. **Geração do código curto**  
+   O sistema cria um código curto aleatório ou personalizado.
+
+3. **Armazenamento da associação**  
+   O sistema salva essa associação entre o código curto e a URL original.
+
+4. **Retorno da URL curta**  
+   O serviço fornece ao usuário a URL curta para compartilhar.
+
+5. **Redirecionamento**  
+   Quando alguém acessa o link curto, o sistema redireciona o navegador para a URL longa original usando um redirecionamento HTTP.
+
+### Por que usar um encurtador?
+
+- Facilita o compartilhamento de links em redes sociais, SMS, e-mails, etc.  
+- Torna os links mais limpos, curtos e fáceis de lembrar.  
+- Permite monitorar o número de acessos em alguns serviços.  
+- Possibilita personalização para branding e campanhas de marketing.
+
 ---
 
 ## Funcionalidades
