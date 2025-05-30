@@ -65,16 +65,16 @@ http://localhost:8080
 ```
 url-shortener-go/
 │
-├── main.go
-├── router.go
-├── handlers.go
-├── storage.go
+├── main.go          // Ponto de entrada do app
+├── router.go        // Define as rotas e caminhos da aplicação
+├── handlers.go      // Contém a lógica das rotas (controladores)
+├── storage.go       // Armazena os dados em memória (mapa)
 │
 ├── templates/
-│   └── index.html
+│   └── index.html   // Interface HTML exibida ao usuário
 │
 └── public/
-    └── style.css
+    └── style.css    // Estilo da interface
 ```
 
 ---
